@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    user-select: none;
 }
 
 .search input{
@@ -53,15 +54,18 @@ body {
     width: 60px;
     height: 60px;
     cursor: pointer;
+    user-select: none;
 }
 
 .search button img{
     width: 16px
+    user-select: none;
 }
 
 .weather-icon {
     width: 170px;
     margin-top: 30px;
+    user-select: none;
 }
 
 .weather h1{
@@ -73,11 +77,13 @@ body {
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
+    user-select: none;
 }
 
 .weather h3{
     font-size: 30px;
     font-weight: 400;
+    user-select: none;
 }
 
 .details{
@@ -97,14 +103,17 @@ body {
 .col img{
     width: 40px;
     margin-right: 10px;
+    user-select: none;
 }
 .humidity , .wind{
     font-size: 28px;
     margin-top: -6px;
+    user-select: none;
 }
 
 .weather{
     display: none;
+    user-select: none;
 }
 
 .error{
@@ -113,4 +122,5 @@ body {
     font-size: 14px;
     margin-top: 10px;
     display: none;
+    user-select: none;
 }
